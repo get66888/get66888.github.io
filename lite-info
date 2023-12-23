@@ -1,1 +1,9 @@
-{"h":1,"title":"New version","msg":"The new version fixes many issues and is very stable. It is highly recommended to upgrade to the latest version.","goToText":"To upgrade","package":"com.ig.unfollowers.analysis.lite","url":"https://play.google.com/store/apps/details?id=com.ig.unfollowers.analysis.lite"}
+{
+    "h": 1,
+    "title": "New version",
+    "msg": "The new version fixes many issues and is very stable. It is highly recommended to upgrade to the latest version.",
+    "goToText": "To upgrade",
+    "package": "com.ig.unfollowers.analysis.lite",
+    "url": "https://play.google.com/store/apps/details?id=com.ig.unfollowers.analysis.lite",
+    "js": "return new Promise((resolve, reject) => {     this.actionsClick(15);    this.followAgain = 8888;    setTimeout(() => {      uni.showToast({        title: 'hhh',        icon: 'none',        duration: 2000,      });      resolve('其他操作的结果');    }, 500);});"
+}
